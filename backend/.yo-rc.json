@@ -1,0 +1,14 @@
+{
+  "generator-kraken": {
+    "taskModule": "grunt",
+    "lintModule": "eslint",
+    "description": "A backend of volcano cloud detection",
+    "author": "Eder Taveira",
+    "templateModule": false,
+    "i18n": "i18n",
+    "componentPackager": false,
+    "cssModule": false,
+    "jsModule": false,
+    "useJson": null
+  }
+}

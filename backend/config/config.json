@@ -1,0 +1,42 @@
+{
+    "i18n": {
+        "contentPath": "path:./locales",
+        "fallback": "en-US"
+    },
+
+    "specialization": {},
+
+    "middleware": {
+        "appsec": {
+            "module": {
+                "arguments": [
+                    {
+                        "xframe": "SAMEORIGIN",
+                        "p3p": false,
+                        "csp": false
+                    }
+                ]
+            }
+        },
+
+        "cors": {
+            "enabled": true,
+            "priority": 119,
+            "module": {
+                "name": "path:./middlewares/cors"
+            }
+        },
+
+        "static": {
+            "module": {
+                "arguments": ["path:./.build"]
+            }
+        },
+
+        "router": {
+            "module": {
+                "arguments": [{ "directory": "path:./controllers" }]
+            }
+        }
+    }
+}

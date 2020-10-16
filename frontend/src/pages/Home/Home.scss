@@ -1,0 +1,24 @@
+.home {
+  margin: 40px;
+
+  .ant-pagination-item {
+    padding: 0 5px;
+  }
+
+  .footer {
+    display: flex;
+    > * {
+      margin: 10px;
+    }
+    .ant-statistic {
+      margin: 0;
+      .ant-statistic-content-value {
+        font-size: 12px;
+      }
+    }
+  }
+  .site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+    margin-bottom: 20px;
+  }
+}

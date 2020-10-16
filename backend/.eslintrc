@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": false,
+    "node": true,
+    "es6": true,
+    "mocha": false
+  },
+  "parserOptions": {
+      "sourceType": "module"
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "modules": true,
+    "spread": true,
+    "globalReturn": true
+  }
+}
